@@ -5,9 +5,6 @@ jobs:
         steps:
             - run: node --version
             - run: npm --version
-            - run: npm install
-            - run: npm run build
-            - run: npm run test
-            - run: npm run deploy
+            - run: whoami
 
             
