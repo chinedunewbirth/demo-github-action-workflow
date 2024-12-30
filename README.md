@@ -14,7 +14,7 @@ Automation of continuous integration and continuous delivery using GitHub action
 on: push
 jobs:
     first_job:
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
         steps:
             - run: node --version
             - run: npm --version
